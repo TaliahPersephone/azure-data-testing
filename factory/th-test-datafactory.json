@@ -1,0 +1,9 @@
+{
+	"name": "th-test-datafactory",
+	"location": "northeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a0fc5db5-90cc-4704-86f2-acba915afa56",
+		"tenantId": "581ca76e-48b6-4494-9249-bf4cd2c16504"
+	}
+}

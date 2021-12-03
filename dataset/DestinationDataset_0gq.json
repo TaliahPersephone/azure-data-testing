@@ -1,0 +1,42 @@
+{
+	"name": "DestinationDataset_0gq",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "thTestSQLConnection",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "user_id",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "artistame",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "trackname",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "playlistname",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			}
+		],
+		"typeProperties": {
+			"schema": "i_spotify",
+			"table": "i_playlist"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

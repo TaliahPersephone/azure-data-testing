@@ -1,0 +1,41 @@
+{
+	"name": "SourceDataset_0gq",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "thTestBlobStorageConnection",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "th-test-spotify"
+			},
+			"columnDelimiter": "|",
+			"rowDelimiter": "\n",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "user_id",
+				"type": "String"
+			},
+			{
+				"name": "artistname",
+				"type": "String"
+			},
+			{
+				"name": "trackname",
+				"type": "String"
+			},
+			{
+				"name": "playlistname",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
